@@ -81,72 +81,97 @@
 
 // } while (tentativa > 5)
 
-let soma = 0
+// let soma = 0
 
-for(let i = 2; i <= 10; i+=2) {
-    console.log(soma += i)
-}
+// for(let i = 2; i <= 10; i+=2) {
+//     console.log(soma += i)
+// }
 
 
-for(let i = 0; i <= 10; i++) {
-    console.log(i * i)
-}
+// for(let i = 0; i <= 10; i++) {
+//     console.log(i * i)
+// }
 
-const jogos = [
-    'Minecraft',
-    'GTA V',
-    'FIFA',
-    'God of War',
-    'CS2'
-];
+// const jogos = [
+//     'Minecraft',
+//     'GTA V',
+//     'FIFA',
+//     'God of War',
+//     'CS2'
+// ];
 
-for(let i = 0; i < jogos.length; i++) {
+// for(let i = 0; i < jogos.length; i++) {
     
+// }
+
+// console.log(jogos)
+
+// const numeros = [5, 10, 15, 20, 25];
+
+// let soma1 = 0
+
+// for(let dados of numeros) {
+//     soma1 += dados
+// }
+
+// console.log(soma1)
+
+// const numeros1 = [18, 7, 42, 91, 30];
+
+// let maior1 = numeros1[0]
+
+// for(let i = 0; i < numeros1.length; i ++) {
+//     if (numeros1[i] > maior1)
+//         maior1 = numeros1[i]
+// }
+
+// console.log(maior1)
+
+// let menor1 = numeros1[0]
+
+// for(let i = 0; i< numeros1.length; i ++) {
+//     if (numeros1[i] < menor1) {
+//         menor1 = numeros1[i]
+//     }
+// }
+
+// console.log(menor1)
+
+
+// const produtos = [
+//     { nome: 'Mouse', estoque: 5 },
+//     { nome: 'Teclado', estoque: 0 },
+//     { nome: 'Monitor', estoque: 2 },
+//     { nome: 'Headset', estoque: 1 }
+// ];
+
+// for(let dados of produtos) {
+//     if (dados.estoque > 0) {
+//         console.log(dados.nome)
+//     }
+// }
+
+let numero = 0
+
+while (numero < 10) {
+    numero++
+    console.log(numero)
+
 }
 
-console.log(jogos)
+let numero2 = 20
 
-const numeros = [5, 10, 15, 20, 25];
-
-let soma1 = 0
-
-for(let dados of numeros) {
-    soma1 += dados
+while (numero2 > 2) {
+    numero2 -= 2
+    console.log(numero2)
 }
 
-console.log(soma1)
+let soma = 0
+let numero3 = 1
 
-const numeros1 = [18, 7, 42, 91, 30];
-
-let maior1 = numeros1[0]
-
-for(let i = 0; i < numeros1.length; i ++) {
-    if (numeros1[i] > maior1)
-        maior1 = numeros1[i]
+while (numero3 <= 10) {
+    soma += numero3
+    numero3++
 }
 
-console.log(maior1)
-
-let menor1 = numeros1[0]
-
-for(let i = 0; i< numeros1.length; i ++) {
-    if (numeros1[i] < menor1) {
-        menor1 = numeros1[i]
-    }
-}
-
-console.log(menor1)
-
-
-const produtos = [
-    { nome: 'Mouse', estoque: 5 },
-    { nome: 'Teclado', estoque: 0 },
-    { nome: 'Monitor', estoque: 2 },
-    { nome: 'Headset', estoque: 1 }
-];
-
-for(let dados of produtos) {
-    if (dados.estoque > 0) {
-        console.log(dados.nome)
-    }
-}
+console.log(soma)
