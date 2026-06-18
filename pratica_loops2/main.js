@@ -151,27 +151,153 @@
 //     }
 // }
 
-let numero = 0
+// let numero = 0
 
-while (numero < 10) {
-    numero++
+// while (numero < 10) {
+//     numero++
+//     console.log(numero)
+
+// }
+
+// let numero2 = 20
+
+// while (numero2 > 2) {
+//     numero2 -= 2
+//     console.log(numero2)
+// }
+
+// let soma = 0
+// let numero3 = 1
+
+// while (numero3 <= 10) {
+//     soma += numero3
+//     numero3++
+// }
+
+// console.log(soma)
+
+// let numero = 0
+
+// while (numero <= 50) {
+//     numero += 5
+    
+
+//     if (numero > 1000) {
+//         break;
+//     }
+
+//     console.log(numero)
+// }
+
+// let soma = 0
+// let numero2 = 0
+
+// while (numero2 < 20) {
+//     numero2++
+//     soma += numero2
+
+// }
+
+// console.log(soma)
+
+
+// const jogos = [
+//     'Minecraft',
+//     'GTA V',
+//     'FIFA',
+//     'God of War'
+// ];
+
+
+// // while (jogos) {
+
+// //     console.log(jogos)
+// // }
+
+
+// let numero3 = 11
+
+// do  {
+//     numero3--
+//     console.log(numero3)
+
+// } while (numero3 > 0 )
+
+
+// let numero4 = 8
+
+// do {
+
+
+
+// } while (numero4 < 80)
+
+let numero = 2
+
+while (numero < 20) {
+    numero += 2
     console.log(numero)
-
 }
 
-let numero2 = 20
-
-while (numero2 > 2) {
-    numero2 -= 2
-    console.log(numero2)
-}
-
+let numero2 = 0
 let soma = 0
-let numero3 = 1
 
-while (numero3 <= 10) {
-    soma += numero3
-    numero3++
+while (numero2 < 15) {
+    numero2++
+    soma += numero2
+    console.log(soma)
 }
 
-console.log(soma)
+
+const frutas = [
+    'Maçã',
+    'Banana',
+    'Laranja',
+    'Uva'
+];
+
+
+// let i = 0
+
+// while (i < frutas.length) {
+//     console.log(frutas[i]);
+//     i++;
+// }
+
+
+let numero3 = 0
+
+while (numero3 < 50) {
+    numero3 += 5
+    console.log(numero3)
+}
+
+let resultado = 0
+let contador = 0
+let numero4 = 4
+
+while (resultado < 40) {
+    contador++
+    resultado = numero4 * contador
+    console.log(resultado)
+}
+
+const produtos = [
+    { nome: 'Mouse', estoque: 5 },
+    { nome: 'Teclado', estoque: 0 },
+    { nome: 'Monitor', estoque: 3 },
+    { nome: 'Headset', estoque: 0 },
+    { nome: 'Webcam', estoque: 2 }
+];
+
+let i = 0
+
+while (i < produtos.length) {
+    i++
+
+    if (produtos[i].estoque > 0) {
+        console.log(produtos[i].nome)
+    }
+    
+}
+
