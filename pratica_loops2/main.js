@@ -232,29 +232,29 @@
 
 // } while (numero4 < 80)
 
-let numero = 2
+// let numero = 2
 
-while (numero < 20) {
-    numero += 2
-    console.log(numero)
-}
+// while (numero < 20) {
+//     numero += 2
+//     console.log(numero)
+// }
 
-let numero2 = 0
-let soma = 0
+// let numero2 = 0
+// let soma = 0
 
-while (numero2 < 15) {
-    numero2++
-    soma += numero2
-    console.log(soma)
-}
+// while (numero2 < 15) {
+//     numero2++
+//     soma += numero2
+//     console.log(soma)
+// }
 
 
-const frutas = [
-    'Maçã',
-    'Banana',
-    'Laranja',
-    'Uva'
-];
+// const frutas = [
+//     'Maçã',
+//     'Banana',
+//     'Laranja',
+//     'Uva'
+// ];
 
 
 // let i = 0
@@ -265,39 +265,128 @@ const frutas = [
 // }
 
 
-let numero3 = 0
+// let numero3 = 0
 
-while (numero3 < 50) {
-    numero3 += 5
-    console.log(numero3)
-}
+// while (numero3 < 50) {
+//     numero3 += 5
+//     console.log(numero3)
+// }
 
-let resultado = 0
-let contador = 0
-let numero4 = 4
+// let resultado = 0
+// let contador = 0
+// let numero4 = 4
 
-while (resultado < 40) {
-    contador++
-    resultado = numero4 * contador
-    console.log(resultado)
-}
+// while (resultado < 40) {
+//     contador++
+//     resultado = numero4 * contador
+//     console.log(resultado)
+// }
 
-const produtos = [
-    { nome: 'Mouse', estoque: 5 },
-    { nome: 'Teclado', estoque: 0 },
-    { nome: 'Monitor', estoque: 3 },
-    { nome: 'Headset', estoque: 0 },
-    { nome: 'Webcam', estoque: 2 }
-];
+// const produtos = [
+//     { nome: 'Mouse', estoque: 5 },
+//     { nome: 'Teclado', estoque: 0 },
+//     { nome: 'Monitor', estoque: 3 },
+//     { nome: 'Headset', estoque: 0 },
+//     { nome: 'Webcam', estoque: 2 }
+// ];
 
-let i = 0
+// let i = 0
 
-while (i < produtos.length) {
-    i++
+// while (i < produtos.length) {
+//     i++
 
-    if (produtos[i].estoque > 0) {
-        console.log(produtos[i].nome)
-    }
+//     if (produtos[i].estoque > 0) {
+//         console.log(produtos[i].nome)
+//     }
     
-}
+// }
+
+
+// let numero = 0
+
+
+// while (numero < 30) {
+//     numero += 3
+//     console.log(numero)
+
+// }
+
+// let numero2 = 0
+// let total = 0
+
+// while (numero2 < 20) {
+//     numero2 += 2
+//     console.log(numero2)
+
+// }
+
+
+// let numeros = 0
+
+// while (numeros < 5) {
+//     numeros++
+//     console.log(numeros)
+// }
+
+
+// let numeros1 = 10
+
+// while (numeros1 > 2) {
+//     numeros1 -= 2
+//     console.log(numeros1)
+// }
+
+
+// let numeros3 = 0
+// let soma = 0
+
+// while (numeros3 < 10) {
+//     numeros3++
+//     soma += numeros3
+//     console.log(soma)
+// }
+
+// const frutas = [
+//     'maça',
+//     'banana',
+//     'uva'
+// ];
+
+// let i = 0
+
+// while (i < frutas.length) {
+//     console.log(frutas[i])
+//     i++
+// }
+
+
+
+// const numeros4 = [15, 42, 8, 91, 27];
+
+// let maior = numeros4[0]
+// let  i = 0
+
+
+// while (i < numeros4.length) {
+
+//     if (numeros4[i] > maior) {
+//         maior = numeros4[i]
+//     }
+//     i++
+    
+// }
+// console.log(maior)
+
+let numeros5 = 0
+
+
+do {
+    numeros5++
+    console.log('tentativa ' + numeros5)
+
+} while (numeros5 < 5)
+
+
+
+
 
