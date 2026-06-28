@@ -377,16 +377,210 @@
 // }
 // console.log(maior)
 
-let numeros5 = 0
+// let numeros5 = 0
 
+
+// do {
+//     numeros5++
+//     console.log('tentativa ' + numeros5)
+
+// } while (numeros5 < 5)
+
+
+
+// let numero = 0
+
+// while (numero < 10) {
+//     numero++
+//     console.log(numero)
+// }
+
+
+// let numero2 = 0
+
+// while (numero2 < 20) {
+//     numero2 += 2
+//     console.log(numero2)
+    
+// }
+
+
+// let numero3 = 0
+// let soma = 0
+
+// while (numero3 < 15) {
+//     numero3++
+//     soma += numero3
+//     console.log(soma)
+// }
+
+
+// let resultado = 0
+// let contador = 0
+
+// while (contador < 10) {
+//     contador++
+//     resultado = 5 * contador
+//     console.log(resultado)
+// }
+
+// let numero4 = 10
+
+// do {
+//     console.log(numero4)
+//     numero4--
+
+
+// } while (numero4 > 0)
+
+
+// let numero5 = 0
+
+// do {
+//     console.log(numero5)
+//     numero5 += 3
+
+
+// } while (numero5 <= 30) 
+
+
+//     let numero6 = 0 
+//     let soma2 = 0
+
+// do {
+//     console.log(soma2)
+//     numero6++
+//     soma2 += numero6
+
+// } while (numero6 <= 10)
+
+
+
+//     let contador2 = 0
+
+//     do {
+//         contador2++
+//         console.log('tentativa ' + contador2)
+
+//     } while (contador2 < 5)
+
+
+// let numero7 = 50
+
+// while (numero7 >= 0) {
+//     console.log(numero7)
+//     numero7 -= 5
+    
+// }
+
+
+// let contador3 = 0
+// let resultado2 = 0 
+
+// do {
+//     contador3++
+//     resultado2 = 8 * contador3
+//     console.log(resultado2)
+
+// } while (contador3 < 10)
+
+
+// let numero = 0
+
+// while (numero < 20) {
+//     numero++
+//     if (numero % 2 === 0) {
+//         console.log(numero)
+//     }
+// }
+
+let numero2 = 0
+
+while (numero2 < 15) {
+    numero2++
+    if (numero2 % 2 === 1) {
+        console.log(numero2)
+    }
+}
+
+let numero3 = 7
+
+while (numero3 <= 70) {
+    console.log(numero3)
+    numero3 += 7
+}
+
+
+let numero4 = 0
+let multiplos5 = 5
+let resultado = 0 
+
+while (numero4 < 5) {
+    numero4++
+    if (resultado < 20 ) {
+        resultado = multiplos5 * numero4
+        console.log(resultado)
+    }
+}
+
+let numero5 = 0 
+
+while (numero5 < 30) {
+    numero5++
+    if(numero5 % 3 === 0) {
+        console.log(numero5)
+    }
+}
+
+
+let numero6 = 0 
+let soma = 0
+
+while (numero6 < 10) {
+    numero6++
+    if (numero6 % 2 === 0) {
+        soma += numero6
+        console.log(soma)
+    }
+}
+
+let numero7 = 0
+let resultado2 = 0
+
+while (numero7 < 20) {
+    numero7++
+    if (numero7 % 2 === 0) {
+        resultado2 = numero7.length
+        console.log(resultado2)
+    }
+}
+
+
+let numero8 = 0
+let resultado3 = 0
+
+while (numero8 < 7) {
+    numero8++
+    resultado3 = numero8 * 7
+    console.log(resultado3)
+}
+
+let numeros9 = 0
+
+while (numeros9 < 30) {
+    numeros9++
+    if (numeros9 % 2 === 0 && numeros9 % 3 === 0) {
+        console.log(numeros9)
+    }
+}
+
+
+let numeros10 = 0
+let resultado4
 
 do {
-    numeros5++
-    console.log('tentativa ' + numeros5)
+numeros10++
+resultado4 = 8 * numeros10
+console.log(resultado4)
 
-} while (numeros5 < 5)
-
-
-
-
-
+} while (numeros10 < 10) 
