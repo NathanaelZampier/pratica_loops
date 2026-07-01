@@ -494,93 +494,93 @@
 //     }
 // }
 
-let numero2 = 0
+// let numero2 = 0
 
-while (numero2 < 15) {
-    numero2++
-    if (numero2 % 2 === 1) {
-        console.log(numero2)
-    }
-}
+// while (numero2 < 15) {
+//     numero2++
+//     if (numero2 % 2 === 1) {
+//         console.log(numero2)
+//     }
+// }
 
-let numero3 = 7
+// let numero3 = 7
 
-while (numero3 <= 70) {
-    console.log(numero3)
-    numero3 += 7
-}
-
-
-let numero4 = 0
-let multiplos5 = 5
-let resultado = 0 
-
-while (numero4 < 5) {
-    numero4++
-    if (resultado < 20 ) {
-        resultado = multiplos5 * numero4
-        console.log(resultado)
-    }
-}
-
-let numero5 = 0 
-
-while (numero5 < 30) {
-    numero5++
-    if(numero5 % 3 === 0) {
-        console.log(numero5)
-    }
-}
+// while (numero3 <= 70) {
+//     console.log(numero3)
+//     numero3 += 7
+// }
 
 
-let numero6 = 0 
-let soma = 0
+// let numero4 = 0
+// let multiplos5 = 5
+// let resultado = 0 
 
-while (numero6 < 10) {
-    numero6++
-    if (numero6 % 2 === 0) {
-        soma += numero6
-        console.log(soma)
-    }
-}
+// while (numero4 < 5) {
+//     numero4++
+//     if (resultado < 20 ) {
+//         resultado = multiplos5 * numero4
+//         console.log(resultado)
+//     }
+// }
 
-let numero7 = 0
-let resultado2 = 0
+// let numero5 = 0 
 
-while (numero7 < 20) {
-    numero7++
-    if (numero7 % 2 === 0) {
-        resultado2 = numero7.length
-        console.log(resultado2)
-    }
-}
-
-
-let numero8 = 0
-let resultado3 = 0
-
-while (numero8 < 7) {
-    numero8++
-    resultado3 = numero8 * 7
-    console.log(resultado3)
-}
-
-let numeros9 = 0
-
-while (numeros9 < 30) {
-    numeros9++
-    if (numeros9 % 2 === 0 && numeros9 % 3 === 0) {
-        console.log(numeros9)
-    }
-}
+// while (numero5 < 30) {
+//     numero5++
+//     if(numero5 % 3 === 0) {
+//         console.log(numero5)
+//     }
+// }
 
 
-let numeros10 = 0
-let resultado4
+// let numero6 = 0 
+// let soma = 0
 
-do {
-numeros10++
-resultado4 = 8 * numeros10
-console.log(resultado4)
+// while (numero6 < 10) {
+//     numero6++
+//     if (numero6 % 2 === 0) {
+//         soma += numero6
+//         console.log(soma)
+//     }
+// }
 
-} while (numeros10 < 10) 
+// let numero7 = 0
+// let resultado2 = 0
+
+// while (numero7 < 20) {
+//     numero7++
+//     if (numero7 % 2 === 0) {
+//         resultado2 = numero7.length
+//         console.log(resultado2)
+//     }
+// }
+
+
+// let numero8 = 0
+// let resultado3 = 0
+
+// while (numero8 < 7) {
+//     numero8++
+//     resultado3 = numero8 * 7
+//     console.log(resultado3)
+// }
+
+// let numeros9 = 0
+
+// while (numeros9 < 30) {
+//     numeros9++
+//     if (numeros9 % 2 === 0 && numeros9 % 3 === 0) {
+//         console.log(numeros9)
+//     }
+// }
+
+
+// let numeros10 = 0
+// let resultado4
+
+// do {
+// numeros10++
+// resultado4 = 8 * numeros10
+// console.log(resultado4)
+
+// } while (numeros10 < 10) 

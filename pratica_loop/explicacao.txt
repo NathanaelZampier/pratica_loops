@@ -1,0 +1,3 @@
+for	Quando existe um contador ou uma quantidade previsível de repetições.
+while	Quando a repetição depende de uma condição que pode mudar durante a execução.
+do...while	Igual ao while, mas quando o bloco precisa executar pelo menos uma vez antes da condição ser testada.
